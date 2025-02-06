@@ -1,5 +1,8 @@
+pip
+setuptools
+wheel
 streamlit==1.17.0
-numpy==1.22.3
-pandas==1.4.2
-joblib==1.1.0
-h5py==3.6.0
+numpy>=1.23.0
+pandas>=1.5.0
+joblib>=1.1.0
+h5py>=3.7.0
