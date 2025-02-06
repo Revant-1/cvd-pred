@@ -15,8 +15,8 @@ def load_model_from_h5(filename, model_key, scaler_key):
     return model, scaler
 
 # Load Models and Scalers
-xgb_model, xgb_scaler = load_model_from_h5("./xgb_model.h5", "xgb_model", "scaler")
-rf_model, rf_scaler = load_model_from_h5("./rf_model.h5", "rf_model", "scaler")
+xgb_model, xgb_scaler = load_model_from_h5("https://github.com/Revant-1/cvd-pred/blob/main/xgb_model.h5", "xgb_model", "scaler")
+rf_model, rf_scaler = load_model_from_h5("https://github.com/Revant-1/cvd-pred/blob/main/rf_model.h5", "rf_model", "scaler")
 
 # Streamlit UI Navigation
 st.sidebar.title("Navigation")
